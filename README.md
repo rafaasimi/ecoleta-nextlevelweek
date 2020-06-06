@@ -1,5 +1,5 @@
 <p align="center"><img src="/public/assets/logo.svg"></p> 
-<h1 align="center">Ecoleta - Next Level Week</h1>
+<h1 align="center">Ecoleta - Next Level Week<br><img src="https://img.shields.io/github/repo-size/rafaasimi/ecoleta-nextlevelweek"> <img src="https://img.shields.io/github/last-commit/rafaasimi/ecoleta-nextlevelweek"> <img src="https://img.shields.io/github/license/rafaasimi/ecoleta-nextlevelweek"></h1>
 
 
 
@@ -13,7 +13,27 @@ Além de possibilitar a consulta de locais proximos.
 
 * [NodeJS](https://nodejs.org/)<br>
 * [ExpressJS](https://expressjs.com/pt-br/)<br>
-* [Nunjucks](https://mozilla.github.io/nunjucks/)
+* [Nunjucks](https://mozilla.github.io/nunjucks)
+
+## ℹ️ Como usar
+```bash
+# Clone esse repositório
+$ git clone https://github.com/rafaasimi/ecoleta-nextlevelweek.git
+
+# Navegue até o repositório
+$ cd ecoleta-nextlevelweek-master
+
+# Instale as dependências
+$ npm install
+
+# Execute o aplicativo
+$ npm start
+
+# Caso não consiga instalar as dependências automaticamente
+$ npm install express
+$ npm install nunjucks
+$ npm install sqlite3
+```
 
 
 ## 🖼 Layout
