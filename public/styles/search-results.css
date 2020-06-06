@@ -1,12 +1,16 @@
+body {
+    background-color: white;
+}
+
 body:after {
     content: '';
-    background-color: white;
-    position: fixed;
+    background-color: #F0F0F5;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    height: 270px;
+    height: 16rem;
     z-index: -1;
 }
 
